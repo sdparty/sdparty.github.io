@@ -72,6 +72,8 @@ File Description: Place here your custom CSS styles
 	position:relative;
 	overflow:hidden;
 	border-radius:300px;}
+.candidates .image-box img{
+	border-radius:300px;}
 .candidates .image-box h4{
 	position:absolute;
 	top:50%;
@@ -394,6 +396,35 @@ background-color: #f8c8c3;}
 	float:right;
 	width:92%;
 	padding:14px 0 0 0;}
+.join-select a{
+	line-height:6.5em;
+	display:block;
+	float:left;
+	width:33.333%;
+	text-align:center;
+	font-size:36px;
+	color:#fff;}
+.join-select a:hover{
+	text-decoration:none;}
+#js-01{
+	background:#962e8d;}
+#js-02{
+	background:#e60035;}
+#js-03{
+	background:#fdd001;}
+.join-block .sublist{
+	clear:both;}
+.join-block .sublist p{
+	margin:0 0 30px 0;}
+.join-img{
+	max-width:800px;
+	width:100%;
+	margin:40px auto;}
+a.overlay{
+	border-radius:300px;}
+.sub-title-01{
+	font-size:24px;
+	margin:40px 0 30px 0;}
 @media screen and (max-width: 992px) {
     .politics-02{
 		border:none;
