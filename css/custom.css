@@ -426,7 +426,35 @@ a.overlay{
 	border-radius:300px;}
 .sub-title-01{
 	font-size:24px;
-	margin:40px 0 30px 0;}
+	margin:40px 0 30px 0;
+	font-weight:bold;
+	color:#797775;}
+.can-title-01{
+	border-bottom:4px solid #a8a6a4;
+	text-align:left;
+	width:200px;
+	margin:0 auto 50px auto;
+	font-weight:bold;
+	color:#959595;
+	font-size:28px;
+	padding:20px 0;}
+.can-title-02{
+	font-size:28px;
+	float:left;
+	padding:30px 0 0 0;
+	margin-left:14%;}
+.candidate-block .politics-tag{
+	position:relative;
+	float:right;
+	right:0px;
+	top:0px;
+	margin-right:10%;}
+.candidate-img img{
+	width:100%;}
+.candidate-img{
+	margin:35px 0;}
+.help-img{
+	margin:55px 0;}
 @media screen and (max-width: 992px) {
     .politics-02{
 		border:none;
@@ -469,6 +497,19 @@ a.overlay{
 		margin:0px;}	
 		.prlist span,.moreline span,.pol-list span{
 	width:90%;}
+	.can-title-02{
+		float:none;
+		padding:0 0 0 10%;}
+.candidate-block .politics-tag{
+	position:relative;
+	float:none;
+	width:70%;
+	margin:0 0 0 18%;
+	}
+.candidate-block .politics-tag a{
+	width:13.5%;}
+.candidate-block .politics-tag a img{
+	width:100%;}
 }
 @media (max-width:767px) {
 	.dt-hot-icon{
@@ -478,6 +519,16 @@ a.overlay{
 #fb-icon{
 	right:2%;
 	}
+.can-title-02{
+		float:none;
+		padding:0px;
+		text-align:center;}
+.candidate-block .politics-tag{
+	margin:0 0 0 10%;
+	width:90%;
+	}	
+
+	
 }
 
 @media screen and (max-width: 640px) {
@@ -498,7 +549,14 @@ a.overlay{
 	.politics-tag{
 	position:relative;
 	overflow:hidden;
-	left:25%;}		
+	left:25%;}	
+	.candidate-block .politics-tag{
+	margin:0 0 0 10%;
+	width:90%;
+	left:0px;
+	}	
+	.candidate-block .politics-tag a{
+	width:25%;}
 }
 
 @media screen and (max-width: 420px) {
@@ -510,4 +568,5 @@ a.overlay{
 		.candidates .col-md-2{
 			float:none;
 	width:auto;}
+	
 }
