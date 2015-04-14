@@ -458,7 +458,7 @@ a.overlay{
 	margin:55px 0;}
 .editor-block img{
 	width:100%;}
-.custom-wrap .container .news-single-block,.custom-wrap .container .action-single-block,.custom-wrap .container .issue-single-block{
+.custom-wrap .container .news-single-block,.custom-wrap .container .action-single-block,.custom-wrap .container .issue-single-block,.custom-wrap .container .article-tag{
 	line-height:1.2em;}
 .news-single-block,.issue-single-block{
 	overflow:hidden;
@@ -531,6 +531,38 @@ a.overlay{
 .issue-txt{
 	font-size:13px;
 	line-height:1.5em;}
+.article-tag{
+	font-size:13px;
+	overflow:hidden;}
+.article-tag a{
+	display:block;
+	float:left;
+	margin:0 8px 0 0;
+	background:#eee;
+	color:#000;
+	padding:5px 15px 5px 10px;
+	border-radius:5px;
+	border-bottom-right-radius:20px;
+	border-top-right-radius:20px;}
+.article-tag a:hover{
+	text-decoration:none;
+	background:#ccc;}
+.issue-top-tag{
+	overflow:hidden;
+	margin:20px 0;}
+.issue-top-tag a{
+	display:block;
+	border:2px solid #eee;
+	border-radius:10px;
+	float:left;
+	background:#fff;
+	padding:0 10px;
+	color:#b0b0b0;
+	font-size:15px;
+	margin:3px 5px 5px 0;}
+.issue-top-tag a.active{
+	background:#eee;	
+	}
 @media screen and (max-width: 992px) {
     .politics-02{
 		border:none;
