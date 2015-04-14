@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>管理後台:新增文章</title>
+<title>管理後台:新增議題</title>
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 
@@ -17,7 +17,7 @@
 <div class="side_block">
 <h4>首頁banner</h4>
 <ul>
-<li><a href="index_banner.html">廣告管理</a></li>
+<li class="select"><a href="index_banner.html">廣告管理</a></li>
 <li><a href="index_banner_add.html">新增廣告</a></li>
 </ul>
 
@@ -26,14 +26,14 @@
   <h4>最新消息</h4>
 <ul>
 <li><a href="news_list.html">文章管理</a></li>
-<li class="select"><a href="news_add.html">新增文章</a></li>
+<li><a href="news_add.html">新增文章</a></li>
 </ul>
 </div>
 <div class="side_block">
 <h4>關注議題</h4>
 <ul>
 <li><a href="issue_list.html">議題管理</a></li>
-<li><a href="issue_add.html">新增議題</a></li>
+<li class="select"><a href="issue_add.html">新增議題</a></li>
 <li><a href="issue_class.html">議題分類管理</a></li>
 <li><a href="issue_class_add.html">新增議題分類</a></li>
 </ul>
@@ -45,21 +45,24 @@
   <div id="main" class="inner">
 <div id="header">sdparty管理後台 - <a href="admin_login.html" class="logout">我要登出</a> 
 </div>
-    <h1>新增文章</h1>
+    <h1>新增議題</h1>
 <table width="100%" border="1" cellpadding="5">
           <tr>
             <th width="95">*分類</th>
             <td><p>
-              <input type="radio" name="radio" id="radio3" value="radio" />
-新聞稿
-<input type="radio" name="radio" id="radio4" value="radio" />
-活動</p></td>
+              <select name="select" id="select">
+                <option>自訂分類1</option>
+                <option>自訂分類2</option>
+                <option>自訂分類3</option>
+              </select>
+            </p></td>
           </tr>
           <tr>
-            <th>文章狀態</th>
+            <th>*文章狀態</th>
             <td><input type="radio" name="radio" id="radio" value="radio" />
               上架
-            <input type="radio" name="radio" id="radio2" value="radio" />下架</td>
+            <input type="radio" name="radio" id="radio2" value="radio" />
+            下架<em class="s_note"> 預設選上架</em></td>
           </tr>
           <tr>
             <th>*發表日期</th>
@@ -74,20 +77,8 @@
 日 <em class="s_note"> 如果設定日期是未來，則視為預約發布，時間到才會正式在前台顯示</em></td>
           </tr>
           <tr>
-            <th>小圖</th>
-            <td><input type="file" name="fileField" id="fileField" />
-              <em class="s_note"><br />
-              若無上傳小圖，由系統自動抓文章第一張圖顯示</em></td>
-          </tr>
-          <tr>
             <th>*標題</th>
             <td><input name="textfield3" type="text" class="input_04" id="textfield3" /></td>
-          </tr>
-          <tr>
-            <th valign="top">標籤tag</th>
-            <td><input name="textfield" type="text" class="input_04" id="textfield" />
-            <br />
-            <em class="s_note">多個標籤請使用逗號隔開</em></td>
           </tr>
           <tr>
             <th valign="top">*內容</th>
